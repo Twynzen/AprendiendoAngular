@@ -2,19 +2,15 @@ import {Component } from '@angular/core';
 
 @Component({
     selector:'micomponente',
-    template: `
-        <h1>{{titulo}}</h1>
-        <h2>{{year}}</h2>
-        <p>{{comentario}}</p>
-    `
+    templateUrl: './micomponente.component.html'
 })
 export class MiComponente{
 
     public titulo: string;
     public comentario: string;
     public year: number;
-    
-    
+
+
     constructor(){
         this.titulo = "Hola esta es la propiedad titulo del compoennete"
         this.comentario = "Esto e sun comentario"
