@@ -22,3 +22,4 @@ export class MiComponente{
 }
 
 //Una ves creo mi componente me dirijo al app.module.ts para tenerlo disponible en cualqueir aprte de la aplicación
+//para crear un componente desde consola se escribe ng generate component
